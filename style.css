@@ -1,0 +1,625 @@
+@import url("https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+body {
+  background: black;
+}
+
+.header__container {
+  font-family: "Jacquard 24";
+  display: flex;
+  width: 1450px;
+  height: 150px;
+  justify-content: space-around;
+  background: rgb(165, 0, 0);
+  align-items: center;
+}
+
+.header__container h1 {
+  font-size: 91px;
+}
+
+.menu h1 {
+  width: 158px;
+  height: 40px;
+  font-size: 50px;
+}
+
+.menu {
+  display: flex;
+  gap: 58px;
+  list-style: none;
+  font-size: 40px;
+}
+
+.btn {
+  width: 188px;
+  height: 40px;
+  background: black;
+  color: white;
+  font-size: 32px;
+  border-radius: 12px;
+}
+
+.oznacom {
+  display: flex;
+  gap: 61px;
+  margin-left: 20px;
+}
+
+.txt h1 {
+  font-family: "Jacquard 24";
+  font-size: 96px;
+  color: white;
+}
+
+.txt p {
+  font-family: "Istok Web";
+  font-size: 32px;
+  color: white;
+}
+
+.kartinka {
+  margin-top: 70px;
+  width: 650px;
+  height: 900px;
+  border-radius: 24px;
+}
+
+.kira {
+  display: flex;
+  gap: 91px;
+  margin-top: 80px;
+  align-items: center;
+  color: #ffffff;
+}
+
+.K {
+  border-radius: 54px;
+  width: 538px;
+  height: 558px;
+}
+
+.opis p {
+  font-family: "Istok Web";
+  font-size: 32px;
+}
+
+.opis h1 {
+  font-size: 96px;
+  font-family: "Jacquard 24";
+}
+
+.Ryuzaki {
+  display: flex;
+  gap: 91px;
+  margin-top: 80px;
+  align-items: center;
+  color: #ffffff;
+}
+
+.L__opis h1 {
+  font-size: 96px;
+  font-family: "Jacquard 24";
+}
+
+.L__opis p {
+  font-family: "Istok Web";
+  font-size: 32px;
+}
+
+.L {
+  width: 648px;
+  height: 540px;
+  border-radius: 54px;
+}
+
+.Misa_opis h1 {
+  font-size: 96px;
+  font-family: "Jacquard 24";
+}
+
+.Misa_opis p {
+  font-family: "Istok Web";
+  font-size: 32px;
+}
+
+.Misa {
+  width: 595px;
+  height: 595px;
+  border-radius: 54px;
+}
+
+.Misa_Amane {
+  display: flex;
+  gap: 91px;
+  margin-top: 80px;
+  align-items: center;
+  color: #ffffff;
+}
+
+.Ryuk {
+  display: flex;
+  gap: 91px;
+  margin-top: 80px;
+  align-items: center;
+  color: #ffffff;
+}
+
+.R_opis h1 {
+  font-size: 96px;
+  font-family: "Jacquard 24";
+}
+
+.R_opis p {
+  font-family: "Istok Web";
+  font-size: 32px;
+}
+
+.Ruk {
+  width: 623px;
+  height: 623px;
+  border-radius: 54px;
+}
+
+.btn__Additional {
+  font-family: "Jacquard 24";
+  font-size: 64px;
+  width: 925px;
+  height: 83px;
+  background: rgb(165, 0, 0);
+  color: black;
+  border-radius: 17px;
+  margin-left: 218px;
+  margin-top: 47px;
+}
+
+.Nate_River {
+  display: flex;
+  color: #ffffff;
+  gap: 91px;
+  margin-top: 80px;
+  align-items: center;
+}
+
+.River_opis h1 {
+  font-size: 96px;
+  font-family: "Jacquard 24";
+}
+
+.River_opis p {
+  font-size: 32px;
+  font-family: "Istok Web";
+}
+
+.Nate {
+  width: 575px;
+  height: 517px;
+  border-radius: 54px;
+}
+
+.Sochiro_Yagami {
+  display: flex;
+  gap: 91px;
+  margin-top: 80px;
+  color: #ffffff;
+  align-items: center;
+}
+
+.Yagami h1 {
+  font-size: 96px;
+  font-family: "Jacquard 24";
+}
+
+.Yagami p {
+  font-size: 32px;
+  font-family: "Istok Web";
+}
+
+.Sociro {
+  width: 626px;
+  height: 626px;
+  border-radius: 64px;
+}
+
+.Toda_Matsuda {
+  display: flex;
+  gap: 91px;
+  color: #ffffff;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.Toda {
+  width: 607px;
+  height: 605px;
+  border-radius: 54px;
+}
+
+.Matsuda h1 {
+  font-size: 96px;
+  font-family: "Jacquard 24";
+}
+
+.Matsuda p {
+  font-size: 32px;
+  font-family: "Istok Web";
+}
+
+.Teru_Mikami {
+  display: flex;
+  color: #ffffff;
+  margin-top: 80px;
+  gap: 91px;
+  align-items: center;
+}
+
+.Teru h1 {
+  font-size: 96px;
+  font-family: "Jacquard 24";
+}
+
+.Teru p {
+  font-size: 32px;
+  font-family: "Istok Web";
+}
+
+.Mikami {
+  width: 662px;
+  height: 614px;
+  border-radius: 54px;
+}
+
+.animeVSmanga h1 {
+  color: rgb(165, 0, 0);
+  font-size: 40px;
+  font-family: "Istok Web";
+}
+
+.animeVSmanga p {
+  color: rgb(165, 0, 0);
+  font-size: 40px;
+  font-family: "Istok Web";
+  margin-left: 20px;
+}
+
+.Death_Note h1 {
+  font-size: 34px;
+  font-family: "Istok Web";
+  color: rgb(165, 0, 0);
+}
+
+.Humen {
+  background: rgb(165, 0, 0);
+  border-radius: 24px;
+  width: 800px;
+}
+
+.if {
+  background: rgb(165, 0, 0);
+  border-radius: 24px;
+  width: 800px;
+}
+
+.s40 {
+  background: rgb(165, 0, 0);
+  border-radius: 24px;
+  width: 800px;
+}
+
+.effect {
+  background: rgb(165, 0, 0);
+  border-radius: 24px;
+  width: 800px;
+}
+
+.m6s40 {
+  background: rgb(165, 0, 0);
+  border-radius: 24px;
+  width: 800px;
+}
+
+.world {
+  background: rgb(165, 0, 0);
+  border-radius: 24px;
+  width: 800px;
+}
+
+.Gdied {
+  background: rgb(165, 0, 0);
+  border-radius: 24px;
+  width: 800px;
+}
+
+.NoEnd {
+  background: rgb(165, 0, 0);
+  border-radius: 24px;
+  width: 800px;
+}
+
+.d9 {
+  background: rgb(165, 0, 0);
+  border-radius: 24px;
+  width: 800px;
+}
+
+.d10 {
+  background: rgb(165, 0, 0);
+  border-radius: 24px;
+  width: 800px;
+}
+
+.d11 {
+  background: rgb(165, 0, 0);
+  border-radius: 24px;
+  width: 800px;
+}
+
+.d12 {
+  background: rgb(165, 0, 0);
+  border-radius: 24px;
+  width: 800px;
+}
+
+.d13 {
+  background: rgb(165, 0, 0);
+  border-radius: 24px;
+  width: 800px;
+}
+
+.d14 {
+  background: rgb(165, 0, 0);
+  border-radius: 24px;
+  width: 800px;
+}
+
+.d15 {
+  background: rgb(165, 0, 0);
+  border-radius: 24px;
+  width: 800px;
+}
+
+.d16 {
+  background: rgb(165, 0, 0);
+  border-radius: 24px;
+  width: 800px;
+}
+
+.d17 {
+  background: rgb(165, 0, 0);
+  border-radius: 24px;
+  width: 800px;
+}
+
+.d18 {
+  background: rgb(165, 0, 0);
+  border-radius: 24px;
+  width: 800px;
+}
+
+.pravila h3 {
+  color: rgb(165, 0, 0);
+  font-size: 34px;
+  font-family: "Istok Web";
+}
+
+.pravila p {
+  color: black;
+  font-size: 32px;
+  font-family: "Istok Web";
+  margin-left: 20px;
+}
+
+.text-name {
+  margin: 0px auto;
+  color: rgb(0, 0, 0);
+  background-image: url(img/e93f65fadbd8ce0999d9e86b68905897.webp);
+  width: 650px;
+  height: 350px;
+  padding-top: 200px;
+  padding-left: 350px;
+}
+
+.padval {
+  background: rgb(165, 0, 0);
+  font-size: 32px;
+  font-family: "Istok Web";
+}
+
+.End {
+  color: #ffffff;
+  font-family: "Istok Web";
+  font-size: 32px;
+}
+@media (max-width: 900px) {
+  .header__container {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 12px;
+    gap: 16px;
+  }
+
+  .header__container h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    font-size: 28px;
+  }
+
+  .menu h1 {
+    font-size: 28px;
+  }
+
+  .btn {
+    width: 220px;
+    height: 44px;
+    font-size: 24px;
+  }
+
+  .oznacom,
+  .kira,
+  .Ryuzaki,
+  .Misa_Amane,
+  .Ryuk,
+  .Nate_River,
+  .Sochiro_Yagami,
+  .Toda_Matsuda,
+  .Teru_Mikami {
+    flex-direction: column;
+    gap: 24px;
+    margin-left: 0;
+    padding: 0 12px;
+    text-align: center;
+  }
+
+  .kartinka,
+  .K,
+  .L,
+  .Misa,
+  .Ruk,
+  .Nate,
+  .Sociro,
+  .Toda,
+  .Mikami {
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+  }
+
+  .txt h1,
+  .opis h1,
+  .L__opis h1,
+  .Misa_opis h1,
+  .R_opis h1,
+  .River_opis h1,
+  .Yagami h1,
+  .Matsuda h1,
+  .Teru h1 {
+    font-size: 56px;
+  }
+
+  .txt p,
+  .opis p,
+  .L__opis p,
+  .Misa_opis p,
+  .R_opis p,
+  .River_opis p,
+  .Yagami p,
+  .Matsuda p,
+  .Teru p {
+    font-size: 24px;
+  }
+
+  .btn__Additional {
+    width: calc(100% - 24px);
+    margin-left: 12px;
+    font-size: 34px;
+  }
+
+  .Humen,
+  .if,
+  .s40,
+  .effect,
+  .m6s40,
+  .world,
+  .Gdied,
+  .NoEnd,
+  .d9,
+  .d10,
+  .d11,
+  .d12,
+  .d13,
+  .d14,
+  .d15,
+  .d16,
+  .d17,
+  .d18 {
+    width: 100%;
+  }
+
+  .animeVSmanga h1,
+  .animeVSmanga p {
+    font-size: 28px;
+  }
+
+  .Death_Note h1 {
+    font-size: 26px;
+  }
+
+  .text-name {
+    width: 100%;
+    height: auto;
+    min-height: 260px;
+    padding: 20px;
+  }
+
+  .padval,
+  .End {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header__container h1 {
+    font-size: 42px;
+  }
+
+  .menu {
+    font-size: 20px;
+  }
+
+  .btn {
+    width: 180px;
+    font-size: 18px;
+  }
+
+  .txt h1,
+  .opis h1,
+  .L__opis h1,
+  .Misa_opis h1,
+  .R_opis h1,
+  .River_opis h1,
+  .Yagami h1,
+  .Matsuda h1,
+  .Teru h1 {
+    font-size: 38px;
+  }
+
+  .txt p,
+  .opis p,
+  .L__opis p,
+  .Misa_opis p,
+  .R_opis p,
+  .River_opis p,
+  .Yagami p,
+  .Matsuda p,
+  .Teru p {
+    font-size: 18px;
+  }
+
+  .btn__Additional {
+    font-size: 24px;
+    height: auto;
+    padding: 12px;
+  }
+
+  .animeVSmanga h1,
+  .animeVSmanga p,
+  .Death_Note h1,
+  .padval,
+  .End {
+    font-size: 18px;
+  }
+
+  .text-name {
+    min-height: 180px;
+    padding: 12px;
+  }
+}
